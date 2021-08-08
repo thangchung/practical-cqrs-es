@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N8T.Core", "src\Shared\N8T.Core\N8T.Core.csproj", "{CCCA8C6C-E3B7-4ED7-8929-E4A7D3CEB7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N8T.Infrastructure", "src\Shared\N8T.Infrastructure\N8T.Infrastructure.csproj", "{F653850B-F8E8-4EF6-8670-DAFD1AC01D44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6AA7FDFD-90FD-4BCD-ACA7-3FFB04FEB70D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieShow", "src\MovieShow\MovieShow.csproj", "{4509723E-B42F-4D0B-97BE-7865926314B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCCA8C6C-E3B7-4ED7-8929-E4A7D3CEB7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCA8C6C-E3B7-4ED7-8929-E4A7D3CEB7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCA8C6C-E3B7-4ED7-8929-E4A7D3CEB7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCA8C6C-E3B7-4ED7-8929-E4A7D3CEB7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F653850B-F8E8-4EF6-8670-DAFD1AC01D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F653850B-F8E8-4EF6-8670-DAFD1AC01D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F653850B-F8E8-4EF6-8670-DAFD1AC01D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F653850B-F8E8-4EF6-8670-DAFD1AC01D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4509723E-B42F-4D0B-97BE-7865926314B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4509723E-B42F-4D0B-97BE-7865926314B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4509723E-B42F-4D0B-97BE-7865926314B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4509723E-B42F-4D0B-97BE-7865926314B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCCA8C6C-E3B7-4ED7-8929-E4A7D3CEB7A6} = {6AA7FDFD-90FD-4BCD-ACA7-3FFB04FEB70D}
+		{F653850B-F8E8-4EF6-8670-DAFD1AC01D44} = {6AA7FDFD-90FD-4BCD-ACA7-3FFB04FEB70D}
+	EndGlobalSection
+EndGlobal
